@@ -7,15 +7,14 @@ public class Main {
         int transfer = input.nextInt();
         int bonus;
         int limit = 1000;
-                if (transfer >= limit) {
+        if (transfer >= limit) {
             bonus = transfer / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         int startBalanse = 100;
         int count = startBalanse + transfer + bonus;
         System.out.println("Бонус: " + bonus);
-        System.out.println("На Вашем счету: " + count );
+        System.out.println("На Вашем счету: " + count);
     }
 }

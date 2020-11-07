@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Добавьте сумму в рублях, без мелочи, мелочь ми нэ виговариваэм:");
+        System.out.print("Добавьте сумму в рублях, без мелочи. Мелочь ми нэ вигавариваэм.:");
         int transfer = input.nextInt();
         int bonus;
         int limit = 1000;
